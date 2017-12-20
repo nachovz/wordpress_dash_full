@@ -2,13 +2,20 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://wpackagist.org"
+            "url": "https:\/\/wpackagist.org"
         }
     ],
     "require": {
-        "wpackagist-plugin/akismet": "*"
+        "wpackagist-plugin\/akismet": "*",
+        "alesanchezr\/wpas-wordpress-dash": "dev-master",
+        "wp-bootstrap/wp-bootstrap-navwalker": "^2.0"
     },
     "require-dev": {
-        
+
+    },
+    "autoload": {
+        "psr-0": {
+            "php": ".\/wp-content\/themes\/test-theme\/src"
+        }
     }
 }
