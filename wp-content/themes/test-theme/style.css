@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Test Theme
+ Description:  A test theme
+ Author:       Ignacio
+ Version:      1.0.0
+ License:      MIT License
+ License URI:  https://opensource.org/licenses/MIT
+ Tags:         developers, bootstrap, composer, wordpress, eloquent
+*/
+body { 
+    padding-top: 65px; 
+}
+.mainNav{
+    background:white;
+    border-bottom: solid 1px gray;
+}
+.menu-item{
+    margin-right: 20px;
+}
+.card-block{
+    padding:20px;
+}
